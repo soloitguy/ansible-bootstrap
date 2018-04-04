@@ -15,5 +15,6 @@
   - { role: cmprescott.chrome, become: true }
   - { role: ngetchell.vscode, become: true}
   - { role: gantsign.oh-my-zsh, become: true}
-  - { role: joshualund.golang, become: true }  
+  - { role: joshualund.golang, become: true }
+  - { role: andrewrothstein.terraform, become: true}  
         
