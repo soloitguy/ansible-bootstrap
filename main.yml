@@ -1,0 +1,19 @@
+---
+
+- name: Setup VM with Development environment
+  hosts: vms
+  roles:
+  - { role: geerlingguy.git, become: true}        
+  - { role: geerlingguy.nginx, become: true}
+  - { role: geerlingguy.docker, become: true}
+  - { role: geerlingguy.pip, become: true}
+  - { role: geerlingguy.ruby, become: true}
+  - { role: geerlingguy.postgresql, become: true}
+  - { role: geerlingguy.mysql, become: true}
+  - { role: geerlingguy.adminer, become: true}
+  - { role: geerlingguy.nodejs, become: true}
+  - { role: cmprescott.chrome, become: true }
+  - { role: ngetchell.vscode, become: true}
+  - { role: gantsign.oh-my-zsh, become: true}
+  - { role: joshualund.golang, become: true }  
+        

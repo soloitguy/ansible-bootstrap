@@ -1,0 +1,8 @@
+---
+# vars file for oh-my-zsh
+users:
+  - username: sully
+    oh_my_zsh:
+      theme: robbyrussell
+      plugins:
+        - git

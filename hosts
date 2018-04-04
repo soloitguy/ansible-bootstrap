@@ -1,0 +1,4 @@
+[local]
+localhost       ansible_connection=local
+[vms]
+172.16.54.133
